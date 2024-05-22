@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confeitaria Paraiso</title>
+    <link rel="shortcut icon" href="/assets/Paraiso.png" type="image/x-icon">
+    <link rel="stylesheet" href="/Styles/style.css">
+    <script src="https://kit.fontawesome.com/65210ff748.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="Logo" src="/assets/Paraiso-SemFundo.png" alt="Confeitaria Paraiso">
+            <div class="Name-Confeitaria">
+                <h1 class="Font-Confeitaria">Confeitaria Paraiso</h1>
+                <p class="Fonte-Calculadora">calculadora de custos</p>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1 class="Fonte-Calculo">Novo calculo:</h1>
+        <form action="" method="post">
+            <label for="Nome" class="Nome">Nome do produto:</label><br>
+            <input type="text" name="" id="produto" required><br>
+            <div class="container-itens">
+            <label for="item">Item 1:</label><br>
+            <input type="text" name="" id="item1" required>
+        </div>
+            <div class="container-valor">
+            <label for="item">Valor 1:</label>
+            <input type="number" name="" id="valor1"required>
+        </div>
+        <br><br>
+
+        <div id="containerItens1">
+            <!-- Aqui a nova div será adicionada -->
+            <div id="containerItens2">
+                <!-- recebe os input itens e valores-->
+            </div>
+          </div>
+        
+        <div class="container-buttons">
+            <input type="button" value="+" class="button1" id="adicionar" onclick="NovoProduto()">
+            <input type="button" value="Salvar" class="button" onclick="Salvar()">
+    </div>
+        </form>
+        <div class="teste">
+           <strong><p class="txtResultado">Resultado:</p></strong>
+            <div id="teste"></div>
+        </div>
+        <a href="javascript:window.location.reload()" id="reloadPageLink">Novo calculo</a>
+    </main>
+    <script src="/Script/adicionar.js"></script>
+    <script src="/Script/salvar.js"></script>
+</body>
+</html>

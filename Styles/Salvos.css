@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Ma+Shan+Zheng&family=Poppins&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Salsa&display=swap');
+body{
+    font-family: 'Poppins', Arial;
+    font-size: 15px;
+    background-color: #fff;
+    margin: 0;
+    color: #3C363B;
+}
+.Logo{
+    width: 59px;
+    height: 59px;
+    margin-right: 22px;
+}
+nav{
+    display: flex;
+    background-color: #F58F9A;
+    align-items: center;
+    padding: 20px;
+}
+
+.Name-Confeitaria{
+    display: grid;
+    justify-content: center;
+}
+.Font-Confeitaria, .Fonte-Calculadora{
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+.Font-Confeitaria{
+    color: #3C363B;
+}
+.Fonte-Calculadora{
+    color: #fff;
+    margin-top: 0;
+    margin-left: 20px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.Fonte-Calculo{
+    font-size: 18px;
+    color: #3C363B;
+    margin-top: 28px;
+}
+.container{
+    border: #3C363B solid 3px;
+}
